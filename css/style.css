@@ -1,0 +1,247 @@
+* {
+    margin:0;
+    padding: 0;
+}
+html,body {
+  height: 100%;
+}
+header, main, footer {
+    width: 1040px;
+    margin: 0 auto;
+}
+#wrapper{
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    width: 100%;
+}
+header{
+    height:120px;
+    margin-top: 20px;  
+    text-decoration:none; 
+    color: white;
+}
+main{
+    padding-bottom: 100px;
+    margin-top: 90px;
+}
+body{
+    background-color: #330161;
+    color: white;
+}
+.main_img-float{
+    width: 550px;
+    margin-right: 40px;
+    float: left;
+}
+#panorama{
+    width:100%;
+    height:150px;
+    background:url(../img/gorodsverhu.jpg)no-repeat center 70%;
+    background-size:cover; /*масштабирование фона*/
+}
+.servece_img{
+    width: 240px;
+}
+.servece_item{
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 240px;
+    float: left;
+}
+.serveces{
+    padding: 35px;
+    border: black 5px;
+}
+.clearfix::after{
+    content:" ";
+    display:table;
+    clear: both;
+}
+.h1_invisible{
+    visibility: hidden;
+}
+.comanda{
+    margin-left: 150px;
+    text-align: center;
+    width: 700px;
+}
+.contacti{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.telephon{
+    margin-top: 15px;
+}
+.adress{
+    margin-top: 15px;
+}
+.socseti{
+    margin-top: 15px;
+}
+.write{
+    margin-top: 15px;
+    
+}
+.contacti p{
+    color: deeppink;
+}
+/* .SiteVizitka{
+    display: flex;
+} */
+.main{
+    display: flex;
+    flex-direction: row;
+}
+.main p{
+    font-size: 21px;
+}
+.site{
+    margin-right: 5px;
+    color: deeppink;
+}
+.vizit{
+    margin-right: 100px;
+}
+.uslugi{
+    margin-right: 50px;
+}
+.onas{
+    margin-right: 50px;
+}
+.klients{
+    margin-right: 50px;
+}
+.kontakti{
+    margin-right: 50px;
+}
+.mainheader{
+    margin-right: 50px;
+}
+.dream{
+    display: flex;
+    flex-direction: row;
+}
+.company{
+    margin-right: 9px;
+    color: deeppink;
+}
+.uslugibottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 12px;
+}
+.mainbottom{
+    margin: -100px auto 0;
+    position: relative;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.contactbottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 311px;
+}
+.onasbottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 115px;
+}
+.our_kl{
+    display: flex;
+    justify-content: center;
+}
+.our{
+    color: deeppink;
+}
+.client{
+    margin-left: 10px;
+}
+.our_client{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.cards{
+    width: 300px;
+    text-align: center;
+    font-size: 15px;
+}
+.klientbottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 290px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+a:hover{
+    color:deeppink ;
+}
+a.rollover {
+    background: url(../img/gorodvpered.jpg); 
+    display: block; 
+    width: 820px; 
+    height: 440px; 
+}
+a.rollover:hover {
+    background: url(../img/popki.gif); 
+    background-size: cover;
+}
+.bebra{
+    color: deeppink;
+}
+a.klient1{
+    background: url(../img/man1.jpg);
+    display: block;
+    width: 320px;
+    height: 250px;
+    background-size: cover;
+}
+a.klient1:hover{
+    background: url(../img/klient11.gif); 
+    background-size: cover;
+}
+a.klient2{
+    background: url(../img/man2.jpg);
+    display: block;
+    width: 320px;
+    height: 250px;
+    background-size: cover;
+}
+a.klient2:hover{
+    background: url(../img/klient22.gif); 
+    background-size: cover;
+}
+a.klient3{
+    background: url(../img/man3.jpg);
+    display: block;
+    width: 320px;
+    height: 250px;
+    background-size: cover;
+}
+a.klient3:hover{
+    background: url(../img/klient33.gif); 
+    background-size: cover;
+}
+a.anus{
+    background: url(../img/ludi.jpg);
+    display: block;
+    width: 644px;
+    height: 336px;
+    background-size: cover;
+}
+a.anus:hover{
+    background: url(../img/cumster.gif);
+    display: block;
+    background-size: contain;
+}
